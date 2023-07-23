@@ -1,4 +1,4 @@
-function onEntry(entry) {
+function onEntr(entry) {
     entry.forEach(change => {
       if (change.isIntersecting) {
         change.target.classList.add('animation-active');
@@ -6,7 +6,7 @@ function onEntry(entry) {
     });
   }
   let options = { threshold: [0.5] };
-  let observer = new IntersectionObserver(onEntry, options);
+  let observer = new IntersectionObserver(onEntr, options);
   let elements = document.querySelectorAll('.table-animation');
   for (let elm of elements) {
     observer.observe(elm);

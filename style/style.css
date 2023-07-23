@@ -171,7 +171,7 @@ img {
   color: rgb(255, 255, 255);
   font-weight: 400;
   font-size: 14px;
-  padding: 15px 0px 15px 0px;
+  padding: 15px 70px 15px 0px;
 }
 
 .banner {
@@ -228,6 +228,11 @@ img {
   position: relative;
   display: flex;
   justify-content: center;
+  transform: matrix(1, 0, -0.3, 1, 0, 0);
+  margin-left: -8px;
+}
+.bookmark p {
+  transform: matrix(1, 0, 0.3, 1, 0, 0);
 }
 
 .bookmark-1 {
@@ -327,6 +332,12 @@ img {
 .slider {
   margin: 70px 0px 70px 0px;
 }
+.slider .wrapper .swiper .swiper-button-prev::after {
+  color: white;
+}
+.slider .wrapper .swiper .swiper-button-next::after {
+  color: white;
+}
 
 .advantages .wrapper .block-cards {
   display: flex;
@@ -396,22 +407,22 @@ img {
 }
 .block-animation .animation .line-1 {
   font-family: "Pragmatica";
-  color: rgb(224, 224, 224);
+  color: white;
   font-weight: 700;
   font-size: 70px;
   margin-left: -300px;
 }
 .block-animation .animation .line-2 {
   font-family: "Pragmatica";
-  color: rgb(224, 224, 224);
-  font-weight: 400;
-  font-size: 80px;
+  color: white;
+  font-weight: 700;
+  font-size: 110px;
   margin-left: -200px;
 }
 .block-animation .animation .line-3 {
   font-family: "Pragmatica";
-  color: rgb(224, 224, 224);
-  font-weight: 500;
+  color: white;
+  font-weight: 400;
   font-size: 74px;
   margin-left: -100px;
 }
@@ -420,12 +431,12 @@ img {
           animation: 3s alternate word-animation;
 }
 .block-animation .animation-word .line-2 {
-  -webkit-animation: 4s alternate word-animation-2;
-          animation: 4s alternate word-animation-2;
+  -webkit-animation: 3s alternate word-animation-2;
+          animation: 3s alternate word-animation-2;
 }
 .block-animation .animation-word .line-3 {
-  -webkit-animation: 5s alternate word-animation-3;
-          animation: 5s alternate word-animation-3;
+  -webkit-animation: 3s alternate word-animation-3;
+          animation: 3s alternate word-animation-3;
 }
 @-webkit-keyframes word-animation {
   0% {
@@ -644,4 +655,36 @@ img {
   font-weight: 400;
   font-size: 14px;
   padding: 15px 50px 15px 50px;
+}
+
+@media screen and (max-width: 1610px) {
+  .banner .banner-image .gallary-image-position .gallary-image .line-1 .gallary-image-item {
+    width: 120px;
+  }
+  .banner .banner-image .gallary-image-position .gallary-image .line-2 .gallary-image-item {
+    width: 120px;
+  }
+  .banner .banner-image .gallary-image-position .gallary-image .line-3 .gallary-image-item {
+    width: 120px;
+  }
+}
+@media screen and (max-width: 1281px) {
+  .banner .banner-image {
+    height: 360px;
+  }
+  .banner .banner-image .gallary-image-position .gallary-image .line-1 .gallary-image-item {
+    width: 87px;
+    padding: 30px;
+  }
+  .banner .banner-image .gallary-image-position .gallary-image .line-2 .gallary-image-item {
+    width: 87px;
+    padding: 30px;
+  }
+  .banner .banner-image .gallary-image-position .gallary-image .line-3 .gallary-image-item {
+    width: 87px;
+    padding: 30px;
+  }
+  .header .wrapper .header-decoration-line {
+    width: 30px;
+  }
 }/*# sourceMappingURL=style.css.map */
