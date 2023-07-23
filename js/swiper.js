@@ -1,5 +1,5 @@
 const swiper = new Swiper('.swiper', {
-  // slidesPerView: 4,
+  slidesPerView: 4,
   spaceBetween: 20,
   Infinity:true,
     navigation: {

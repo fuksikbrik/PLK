@@ -301,12 +301,19 @@ img {
   display: flex;
   justify-content: center;
   padding: 6px 0px;
+  opacity: 0;
+  transition: 1s;
+  margin-top: 50px;
 }
 .about-us .card-number .card-number-item .white-table p {
   transform: matrix(1, 0, 0.3, 1, 0, 0);
   font-family: "Pragmatica";
   font-weight: 400;
   font-size: 14px;
+}
+.about-us .card-number .card-number-item .animation-active {
+  opacity: 1;
+  margin-top: 0px;
 }
 .about-us .card-number .card-number-item .card-number-text {
   width: 80%;
@@ -375,6 +382,152 @@ img {
   font-weight: 400;
   font-size: 24px;
   text-align: end;
+}
+
+.block-animation {
+  position: -webkit-sticky;
+  position: sticky;
+}
+.block-animation .animation {
+  position: absolute;
+  top: 0;
+  right: 28%;
+  margin-top: 500px;
+}
+.block-animation .animation .line-1 {
+  font-family: "Pragmatica";
+  color: rgb(224, 224, 224);
+  font-weight: 700;
+  font-size: 70px;
+  margin-left: -300px;
+}
+.block-animation .animation .line-2 {
+  font-family: "Pragmatica";
+  color: rgb(224, 224, 224);
+  font-weight: 400;
+  font-size: 80px;
+  margin-left: -200px;
+}
+.block-animation .animation .line-3 {
+  font-family: "Pragmatica";
+  color: rgb(224, 224, 224);
+  font-weight: 500;
+  font-size: 74px;
+  margin-left: -100px;
+}
+.block-animation .animation-word .line-1 {
+  -webkit-animation: 3s alternate word-animation;
+          animation: 3s alternate word-animation;
+}
+.block-animation .animation-word .line-2 {
+  -webkit-animation: 4s alternate word-animation-2;
+          animation: 4s alternate word-animation-2;
+}
+.block-animation .animation-word .line-3 {
+  -webkit-animation: 5s alternate word-animation-3;
+          animation: 5s alternate word-animation-3;
+}
+@-webkit-keyframes word-animation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes word-animation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes word-animation-2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes word-animation-2 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes word-animation-3 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes word-animation-3 {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .footer {

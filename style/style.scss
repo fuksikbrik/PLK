@@ -332,12 +332,20 @@ img{
                 display: flex;
                 justify-content: center;
                 padding: 6px 0px ;
+                opacity: 0;
+                transition: 1s;
+                margin-top: 50px;
                 p{
                     transform: matrix(1, 0, 0.3, 1, 0, 0);
                     font-family: 'Pragmatica';
                     font-weight: 400;
                     font-size: 14px;
                 }
+                
+            }
+            .animation-active{
+                opacity: 1;
+                margin-top: 0px;
             }
             .card-number-text{
                 width: 80%;
@@ -419,6 +427,101 @@ img{
             }
         }
     }
+}
+.block-animation{
+    position: sticky;
+    .animation{
+        position: absolute;
+        top: 0;
+        right: 28%;
+        margin-top: 500px;
+        .line-1{
+            font-family: 'Pragmatica';
+            color:  rgb(224, 224, 224);
+            font-weight: 700;
+            font-size: 70px;
+            margin-left: -300px;
+        }
+        .line-2{
+            font-family: 'Pragmatica';
+            color:  rgb(224, 224, 224);
+            font-weight: 400;
+            font-size: 80px;
+            margin-left: -200px;
+        }
+        .line-3{
+            font-family: 'Pragmatica';
+            color:  rgb(224, 224, 224);
+            font-weight: 500;
+            font-size: 74px;
+            margin-left: -100px;
+        }
+    }
+    .animation-word{
+        .line-1{
+            animation: 3s alternate word-animation;
+        }
+        .line-2{
+            animation: 4s alternate word-animation-2;
+        }
+        .line-3{
+            animation: 5s alternate word-animation-3;
+        }
+    }
+
+    @keyframes word-animation {
+            0%{
+              opacity: 0;
+            }
+            25%{
+                opacity: 1;
+            }
+            50%{
+                opacity: 1;
+            }
+            75%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 1;
+            }
+    }
+
+    @keyframes word-animation-2 {
+        0%{
+            opacity: 0;
+        }
+        25%{
+            opacity: 0;
+        }
+        50%{
+            opacity: 0;
+        }
+        75%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 1;
+        }
+}
+
+@keyframes word-animation-3 {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 }
 .footer{
     background-color: white;
