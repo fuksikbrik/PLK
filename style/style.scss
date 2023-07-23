@@ -370,6 +370,19 @@ img{
     margin: 70px 0px 70px 0px;
     .wrapper{
         .swiper{
+            .swiper-wrapper{
+                .swiper-slide{
+                    background-color: white;
+                    display: flex;
+                    justify-content: center;
+                    padding: auto 0 ;
+                    height: 100%;
+                    
+                }
+            }
+            .swiper-button-prev{
+
+            }
             .swiper-button-prev::after{
                 color: white;
             }
@@ -377,8 +390,28 @@ img{
                 color: white;
             }
         }
+        
     }
-   
+
+    .swiper-navigation {
+        position: absolute;
+        width: 100%;
+        .swiper-button-next {
+            right: 16%;
+          }
+          .swiper-button-next::after{
+            color: white;
+          }
+          .swiper-button-prev {
+            left: 16%;
+        }
+        .swiper-button-prev::after{
+            color: white;
+        }
+     
+      }
+     
+     
 }
 .advantages{
     .wrapper{

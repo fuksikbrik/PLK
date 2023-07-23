@@ -332,10 +332,33 @@ img {
 .slider {
   margin: 70px 0px 70px 0px;
 }
+.slider .wrapper .swiper .swiper-wrapper .swiper-slide {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: auto 0;
+  height: 100%;
+}
 .slider .wrapper .swiper .swiper-button-prev::after {
   color: white;
 }
 .slider .wrapper .swiper .swiper-button-next::after {
+  color: white;
+}
+.slider .swiper-navigation {
+  position: absolute;
+  width: 100%;
+}
+.slider .swiper-navigation .swiper-button-next {
+  right: 16%;
+}
+.slider .swiper-navigation .swiper-button-next::after {
+  color: white;
+}
+.slider .swiper-navigation .swiper-button-prev {
+  left: 16%;
+}
+.slider .swiper-navigation .swiper-button-prev::after {
   color: white;
 }
 
