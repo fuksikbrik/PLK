@@ -257,10 +257,10 @@ img{
     position: relative;
     display: flex;
     justify-content: center;
-    transform: matrix(1, 0, -0.3, 1, 0, 0);
+    transform: matrix(1, 0, -0.2, 1, 0, 0);
     margin-left: -8px;
     p{
-        transform: matrix(1, 0, 0.3, 1, 0, 0);
+        transform: matrix(1, 0, 0.2, 1, 0, 0);
 
     }
     
@@ -271,7 +271,7 @@ img{
 .bookmark-1{
     margin-top: 100px;
     margin-bottom: 50px;
-    background-color: aqua;
+    background-color: #22aae1;
     p{
         font-family: 'Pragmatica';
         color:  rgb(224, 224, 224);
@@ -281,7 +281,7 @@ img{
 }
 
 .bookmark-2{
-    background-color:   #82af3e ;
+    background-color:   #9fc53b ;
     p{
         font-family: 'Pragmatica';
         color:  rgb(224, 224, 224);
@@ -300,12 +300,22 @@ img{
 }
 
 .bookmark-4{
-    background-color:   rgb(63, 160, 252);
+    background-color:   #22aae1;
     p{
         font-family: 'Pragmatica';
         font-weight: 400;
         font-size: 30px;
         color:  rgb(224, 224, 224);
+    }
+}
+
+.bookmark-5{
+    background-color:   #9fc53b;
+    p{
+        font-family: 'Pragmatica';
+        font-weight: 400;
+        font-size: 30px;
+        color: white;
     }
 }
 
@@ -348,6 +358,10 @@ img{
                     font-size: 14px;
                 }
                 
+            }
+            .card-image{
+                height: 50px;
+                margin-bottom: 10px;
             }
             .animation-active{
                 opacity: 1;
@@ -448,6 +462,9 @@ img{
                     font-weight: 400;
                     font-size: 16px;
                     opacity: 0.9;
+                }
+                .card-item-image{
+                    height: 50px;
                 }
             }
         }
@@ -572,6 +589,177 @@ img{
         opacity: 1;
     }
 }
+}
+.white-background{
+    background-color: white;
+    padding-top: 40px;
+    .blocks-news{
+        display: flex;
+        justify-content: center;
+        .wrapper{
+            display: flex;
+            justify-content: center;
+            .news{
+                position: sticky;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 50px;
+                margin-bottom: 150px;
+                &-block-left{
+                    width: 45%;
+                    .block-1{
+                        display: flex;
+                        align-items: flex-start;
+                        img{
+                            max-height: 240px;
+                            width: 315px;
+                        }
+                        .title-and-sub-title{
+                            background-color: white;
+                            padding: 0px 0px 0px 20px;
+                            transform: matrix(1, 0, -0.2, 1, 0, 0);
+                            margin-left: -30px;
+                            .title{
+                                width: 100%;
+                                display: flex;
+                                .title-text{
+                                    background-color: #22aae1;
+                                    p{
+                                        padding: 8px 10px ;
+                                        font-size: 16px;
+                                        transform: matrix(1, 0, 0.2, 1, 0, 0);
+                                        font-weight: 400;
+                                        font-family: 'Pragmatica';
+                                        color: #def7f3;
+                                    }
+                                }
+                                .title-years{
+                                    background-color: #003260;
+                                    p{
+                                        padding: 8px 20px;
+                                        font-size: 16px;
+                                        transform: matrix(1, 0, 0.2, 1, 0, 0);
+                                        font-weight: 400;
+                                        font-family: 'Pragmatica';
+                                        color:#b6bdc5;
+                                    }
+                                }
+                            }
+                            .sub-title{
+                                transform: matrix(1, 0, 0.2, 1, 0, 0);
+                                margin-left: 20px;
+                                margin-top: 10px;
+                                font-weight: 400;
+                                font-family: 'Pragmatica';
+                                color: #554a99;
+                                
+                            }
+                        }
+    
+                    }
+                    .block-2{
+                       margin-top: 70px;
+                       
+                       img{
+                        width: 250px;
+                       }
+                    }
+                }
+                &-decoration-line{
+                    width: 5px;
+                    transform: rotate(12deg);
+                    background-color: #003260;
+                    position: absolute;
+                    top: -20%;
+                    right: 48%;
+                    height: 600px;
+                    .test-1{
+                        position: sticky;
+                        .test-2{
+                            position: absolute;
+                            background-color:#9fc53b;
+                            width: 20px ;
+                            height: 20px;
+                            border-radius: 100%;
+                            top: 0;
+                            right: -140%;
+                            margin-top: 140px;
+                        }
+                    }
+                    
+                }
+                &-block-right{
+                    width: 45%;
+                    margin-top: 50px;
+                    .right-block-1{
+                        display: flex;align-items: flex-start;
+                    
+                        img{
+                            width: 250px;
+                            max-height: 240px;
+                        }
+                        .title-and-text{
+                            transform: matrix(1, 0, -0.2, 1, 0, 0);
+                            background-color: white;
+                            padding: 0px 20px 0px 0px;
+                            margin-right: -30px;
+                            margin-left: 30px;
+                            .title-and-years{
+                                display: flex;
+                                .years{
+                                    background-color: #003260;
+                                    p{
+                                        padding: 8px 10px;
+                                        font-size: 16px;
+                                        transform: matrix(1, 0, 0.2, 1, 0, 0);
+                                        font-weight: 400;
+                                        font-family: 'Pragmatica';
+                                        color:#b6bdc5;
+                                    }
+                                   
+                                }
+                                .title{
+                                    background-color: #9fc53b;
+                                    width: -webkit-fill-available;
+                                    display: flex;
+                                    p{
+                                        padding: 8px 20px;
+                                        font-size: 16px;
+                                        transform: matrix(1, 0, 0.2, 1, 0, 0);
+                                        font-weight: 400;
+                                        font-family: 'Pragmatica';
+                                        color: #def7f3;
+                                    }
+                                }
+                            }
+                            .sub-title{
+                                transform: matrix(1, 0, 0.2, 1, 0, 0);
+                                margin-left: 10px;
+                                margin-top: 10px;
+                                font-weight: 400;
+                                font-family: 'Pragmatica';
+                                color: #554a99;
+                                width: 90%;
+                            }
+                        }
+                    }
+                    .right-block-2{
+                        margin-top: 70px;
+                        img{
+                            width: 315px;
+                              max-height: 240px;
+                        }
+                        .title-and-text{
+                            margin-left: 0px;
+                        }
+                    }
+
+                }
+                
+            }
+        }
+    }
+    
 }
 .footer{
     background-color: white;
