@@ -348,10 +348,10 @@ img {
 }
 .slider .wrapper .swiper .swiper-wrapper .swiper-slide {
   background-color: white;
+  width: 285px;
+  height: 285px;
   display: flex;
-  justify-content: center;
-  padding: auto 0;
-  height: 100%;
+  align-items: center;
 }
 .slider .wrapper .swiper .swiper-button-prev::after {
   color: white;
@@ -417,7 +417,6 @@ img {
 .insurance .wrapper .insurance-position {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
   margin-top: 100px;
   margin-bottom: 50px;
 }
@@ -426,6 +425,10 @@ img {
 }
 .insurance .wrapper .insurance-position .block-right {
   width: 50%;
+  background-color: rgb(0, 51, 95);
+  padding: 0px 0px 0px 115px;
+  transform: matrix(1, 0, -0.3, 1, 0, 0);
+  margin-left: -60px;
 }
 .insurance .wrapper .insurance-position .block-right p {
   font-family: "Pragmatica";
@@ -433,6 +436,7 @@ img {
   font-weight: 400;
   font-size: 24px;
   text-align: end;
+  transform: matrix(1, 0, 0.3, 1, 0, 0);
 }
 
 .block-animation {
@@ -441,9 +445,8 @@ img {
 }
 .block-animation .animation {
   position: absolute;
-  top: 0;
-  right: 28%;
-  margin-top: 500px;
+  top: 45%;
+  left: 43%;
 }
 .block-animation .animation .line-1 {
   font-family: "Pragmatica";
@@ -598,8 +601,8 @@ img {
   position: sticky;
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
-  margin-bottom: 150px;
+  margin-top: 150px;
+  margin-bottom: 250px;
 }
 .white-background .blocks-news .wrapper .news-block-left {
   width: 45%;
@@ -666,11 +669,13 @@ img {
   position: absolute;
   top: -20%;
   right: 48%;
-  height: 600px;
+  height: 700px;
 }
 .white-background .blocks-news .wrapper .news-decoration-line .test-1 {
   position: -webkit-sticky;
   position: sticky;
+  top: 20%;
+  margin-top: 20px;
 }
 .white-background .blocks-news .wrapper .news-decoration-line .test-1 .test-2 {
   position: absolute;
@@ -684,7 +689,7 @@ img {
 }
 .white-background .blocks-news .wrapper .news-block-right {
   width: 45%;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 .white-background .blocks-news .wrapper .news-block-right .right-block-1 {
   display: flex;

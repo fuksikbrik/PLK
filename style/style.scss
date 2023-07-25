@@ -387,11 +387,12 @@ img{
             .swiper-wrapper{
                 .swiper-slide{
                     background-color: white;
+                    width: 285px;
+                    height: 285px;
                     display: flex;
-                    justify-content: center;
-                    padding: auto 0 ;
-                    height: 100%;
-                    
+                    align-items: center;
+
+
                 }
             }
             .swiper-button-prev{
@@ -476,7 +477,7 @@ img{
         .insurance-position{
             display: flex;
             justify-content: space-between;
-            gap: 50px;
+           
             margin-top: 100px;
             margin-bottom: 50px;
             .block-left{
@@ -484,12 +485,17 @@ img{
             }
             .block-right{
                 width: 50%;
+                background-color: rgb(0, 51, 95);
+                padding: 0px 0px 0px 115px;
+                transform: matrix(1, 0, -0.3, 1, 0, 0);
+                margin-left: -60px;
                 p{
                     font-family: 'Pragmatica';
                     color:  rgb(224, 224, 224);
                     font-weight: 400;
                     font-size: 24px;
                     text-align: end;
+                     transform: matrix(1, 0, 0.3, 1, 0, 0);
                 }
             }
         }
@@ -499,9 +505,8 @@ img{
     position: sticky;
     .animation{
         position: absolute;
-        top: 0;
-        right: 28%;
-        margin-top: 500px;
+        top: 45%;
+        left: 43%;
         .line-1{
             font-family: 'Pragmatica';
             color: white;
@@ -603,8 +608,8 @@ img{
                 position: sticky;
                 display: flex;
                 justify-content: space-between;
-                margin-top: 50px;
-                margin-bottom: 150px;
+                margin-top: 150px;
+                margin-bottom: 250px;
                 &-block-left{
                     width: 45%;
                     .block-1{
@@ -673,9 +678,12 @@ img{
                     position: absolute;
                     top: -20%;
                     right: 48%;
-                    height: 600px;
+                    height: 700px;
                     .test-1{
+                        
                         position: sticky;
+                        top: 20%;
+                        margin-top: 20px;
                         .test-2{
                             position: absolute;
                             background-color:#9fc53b;
@@ -691,7 +699,7 @@ img{
                 }
                 &-block-right{
                     width: 45%;
-                    margin-top: 50px;
+                    margin-top: 150px;
                     .right-block-1{
                         display: flex;align-items: flex-start;
                     
