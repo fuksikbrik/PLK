@@ -604,17 +604,20 @@ img{
         .wrapper{
             display: flex;
             justify-content: center;
+            margin-top: 150px;
+            position: sticky;
             .news{
-                position: sticky;
-                display: flex;
-                justify-content: space-between;
-                margin-top: 150px;
+              
+
                 margin-bottom: 250px;
-                &-block-left{
-                    width: 45%;
-                    .block-1{
+                .slide{
+                    display: flex;
+                    justify-content: space-between;
+                    max-height: 250px;
+                    .block-left{
                         display: flex;
                         align-items: flex-start;
+                        width: 47%;
                         img{
                             max-height: 240px;
                             width: 315px;
@@ -663,46 +666,11 @@ img{
                         }
     
                     }
-                    .block-2{
-                       margin-top: 70px;
-                       
-                       img{
-                        width: 250px;
-                       }
-                    }
-                }
-                &-decoration-line{
-                    width: 5px;
-                    transform: rotate(12deg);
-                    background-color: #003260;
-                    position: absolute;
-                    top: -20%;
-                    right: 48%;
-                    height: 700px;
-                    .test-1{
-                        
-                        position: sticky;
-                        top: 20%;
-                        margin-top: 20px;
-                        .test-2{
-                            position: absolute;
-                            background-color:#9fc53b;
-                            width: 20px ;
-                            height: 20px;
-                            border-radius: 100%;
-                            top: 0;
-                            right: -140%;
-                            margin-top: 140px;
-                        }
-                    }
-                    
-                }
-                &-block-right{
-                    width: 45%;
-                    margin-top: 150px;
-                    .right-block-1{
-                        display: flex;align-items: flex-start;
-                    
+
+                    .block-right{
+                        display: flex;
+                        align-items: flex-start;
+                        width: 47%;
                         img{
                             width: 250px;
                             max-height: 240px;
@@ -752,6 +720,13 @@ img{
                             }
                         }
                     }
+                }
+              
+              
+                &-block-right{
+                    width: 45%;
+                    margin-top: 150px;
+                  
                     .right-block-2{
                         margin-top: 70px;
                         img{
@@ -765,6 +740,42 @@ img{
 
                 }
                 
+            }
+            .news::-webkit-scrollbar{
+                background-color: black;
+                width: 7px;
+                position: absolute;
+                top: 0;
+                left: 50%;
+            }
+            .news::-webkit-scrollbar-thumb{
+                background-color:#9fc53b;
+                width: 20px;
+                height: 20px;
+                border-radius: 100%;
+            }
+        }
+
+        .swiper-2{
+            height: 500px;
+            overflow:hidden;
+            margin-bottom: 150px;
+            .swiper-wrapper{
+                display: flex;
+                flex-direction: column;
+            }
+            .swiper-scrollbar{
+                top: 0;
+                left: 50%;
+                background-color: #003260;
+                width: 5px;
+                height: 385px;
+                &-drag{
+                    width: 20px;
+                    height: 22px !important; 
+                    background-color: #9fc53b;
+                    margin-left: -7px;
+                }
             }
         }
     }

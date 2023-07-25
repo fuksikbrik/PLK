@@ -1,5 +1,5 @@
 const swiper = new Swiper('.swiper', {
-  slidesPerView: 4,
+  slidesPerView: 2,
   loop:true,
   spaceBetween: 20,
  
@@ -7,4 +7,19 @@ const swiper = new Swiper('.swiper', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+  });
+
+  const swiper2 = new Swiper('.swiper-2', {
+    slidesPerView: 2,
+    direction: "vertical",
+    
+    spaceBetween:30,
+    slidesPerView: "auto",
+    freeMode: true,
+    
+    scrollbar: {
+      el: '.swiper-scrollbar',
+      draggable: true,
+    },
+    mousewheel: true,
   });
