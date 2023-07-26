@@ -194,14 +194,15 @@ img{
 
 .banner{
     background-color: white;
-    padding: 30px 0px;
+    padding: 40px 0px;
+    position: sticky;
     .banner-image{
         background-image: url(../img/18.png);
-        background-position:left;
+        background-position:left top 50%;
         background-size: 85% auto;
         background-repeat: no-repeat no-repeat; 
-        height: 612px;
-        position: sticky;
+        height: 608px;
+       
        .gallary-image-position{
         .gallary-image{
             transform: matrix(1, 0, -0.3, 1, 0, 0);
@@ -209,7 +210,7 @@ img{
             align-items: flex-start;
             position: absolute;
             top: 0%;
-            right: 5%;
+            right: 2%;
             
             
             .line-1{
@@ -235,7 +236,7 @@ img{
                 }
                 .gallary-image-item{
                   padding: 40px 40px 40px 40px ;
-                  width: 173px;
+                  width: 190px;
                   z-index: 2;
                   transition: 0.6s;
                 }
@@ -273,8 +274,8 @@ img{
                     }
                 }
                 .gallary-image-item{
-                    padding: 40px;
-                    width: 173px;
+                    padding: 40px 40px 40px 40px ;
+                    width: 190px;
                     z-index: 2;
                     transition: 0.6s;
                 }
@@ -311,9 +312,10 @@ img{
                         width: 80%;
                     }
                 }
+                
                 .gallary-image-item{
-                    padding: 40px;
-                    width: 173px;
+                    padding: 40px 40px 40px 40px;
+                    width: 190px;
                     z-index: 2;
                     transition: 0.6s;
                 }
@@ -335,16 +337,18 @@ img{
 }
 
 .bookmark{
-    width: 50%;
+    width: 40%;
     padding: 10px 30px 10px 0px ;
     position: relative;
     display: flex;
     justify-content: center;
     transform: matrix(1, 0, -0.2, 1, 0, 0);
     margin-left: -8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     p{
         transform: matrix(1, 0, 0.2, 1, 0, 0);
-
+        margin-left: 150px;
     }
     
 }
@@ -352,8 +356,7 @@ img{
 
 
 .bookmark-1{
-    margin-top: 100px;
-    margin-bottom: 50px;
+  
     background-color: #22aae1;
     p{
         font-family: 'Pragmatica';
@@ -517,7 +520,7 @@ img{
             display: flex;
             justify-content: space-between;
             gap: 30px;
-            margin-top: 100px;
+            margin-top: 50px;
             margin-bottom: 100px;
             .card-item{
                 max-width: 292.5px;
@@ -561,7 +564,7 @@ img{
             display: flex;
             justify-content: space-between;
            
-            margin-top: 100px;
+            margin-top: 50px;
             margin-bottom: 50px;
             .block-left{
                 width: 50%;
@@ -586,10 +589,15 @@ img{
 }
 .block-animation{
     position: sticky;
+    background-image: url(../img/8.jpg);
+    height: 1510px;
+    background-size: 100%;
+    background-repeat: no-repeat no-repeat;
+    background-position: bottom;
     .animation{
         position: absolute;
-        top: 45%;
-        left: 43%;
+        top: 15%;
+        left: 45%;
         .line-1{
             font-family: 'Pragmatica';
             color: white;
@@ -687,12 +695,8 @@ img{
         .wrapper{
             display: flex;
             justify-content: center;
-            margin-top: 150px;
             position: sticky;
             .news{
-              
-
-                margin-bottom: 250px;
                 .slide{
                     display: flex;
                     justify-content: space-between;
@@ -849,7 +853,7 @@ img{
         .swiper-2{
             height: 500px;
             overflow:hidden;
-            margin-bottom: 150px;
+            margin-bottom: 50px;
             .swiper-wrapper{
                 display: flex;
                 flex-direction: column;
@@ -887,6 +891,7 @@ img{
                 max-width: 200px;
                 height: 60px;
                 margin: auto 0;
+                padding: 0px 30px 0px 0px ;
             }
             .footer-center-block{
                 display: flex;
@@ -895,7 +900,7 @@ img{
                 gap: 20px;
                 padding: 50px 30px 20px 30px;
                 transform: matrix(1, 0, -0.5, 1, 0, 0);
-                width: 47%;
+                width: 60%;
                 .footer-center-block-line-1{
                     display: flex;
                     justify-content: start;
@@ -903,7 +908,7 @@ img{
                     .green-table-footer{
                         background-color: rgb(163, 223, 67);
                         transform: matrix(1, 0, -0.5, 1, 0, 0);
-                        max-width: 125px;
+                        max-width: 140px;
                         width: -webkit-fill-available;
                         display: flex;
                         justify-content: center;
@@ -925,7 +930,7 @@ img{
                         display: flex;
                         justify-content: center;
                         transform: matrix(1, 0, -0.5, 1, 0, 0);
-                        max-width: 125px;
+                        max-width: 140px;
                         width: -webkit-fill-available;
                         padding: 7px 0px;
                         background-color: rgba(17, 7, 160, 0.548);
@@ -949,6 +954,7 @@ img{
                     font-family: 'Pragmatica';
                     font-weight: 500;
                     font-size: 18px;
+                    text-align: center;
                 }
                 .number{
                     font-family: 'Pragmatica'; 
@@ -992,22 +998,22 @@ img{
 @media screen and (max-width:1610px) {
     .banner{
         .banner-image{
-            height: 502px;
+            height: 498px;
             .gallary-image-position{
                 .gallary-image{
                     .line-1{
                         .gallary-image-item{
-                            width: 120px;
+                            width: 138px;
                         }
                     }
                     .line-2{
                         .gallary-image-item{
-                            width: 120px;
+                            width: 138px;
                         }
                     }
                     .line-3{
                         .gallary-image-item{
-                            width: 120px;
+                            width: 138px;
                         }
                     }
                 }
@@ -1019,11 +1025,12 @@ img{
 @media screen and (max-width:1281px) {
 
     .banner{
+        padding: 30px 0;
         .banner-image{
             height: 372px;
             .gallary-image-position{
                 .gallary-image{
-                 
+                 right: 5%;
                     .line-1{
                         .card-hover{
                             .link-partner{
@@ -1031,7 +1038,7 @@ img{
                             }
                         }
                         .gallary-image-item{
-                            width: 87px;
+                            width: 83px;
                             padding: 30px;
                         }
                     }
@@ -1042,7 +1049,7 @@ img{
                             }
                         }
                         .gallary-image-item{
-                            width: 87px;
+                            width: 83px;
                             padding: 30px;
                         }
                     }
@@ -1053,7 +1060,7 @@ img{
                             }
                         }
                         .gallary-image-item{
-                            width: 87px;
+                            width: 83px;
                             padding: 30px;
                         }
                     }
