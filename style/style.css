@@ -70,12 +70,12 @@ img {
   justify-content: start;
   margin: 0 auto;
   width: 100%;
-  max-width: 1350px;
+  max-width: 1440px;
 }
 .header .wrapper .header-block-1 {
   width: 65%;
   display: flex;
-  padding: 50px 80px 20px 0px;
+  padding: 50px 60px 20px 0px;
 }
 .header .wrapper .header-block-1 img {
   max-width: 160px;
@@ -877,6 +877,9 @@ img {
   align-items: center;
   position: -webkit-sticky;
   position: sticky;
+}
+.footer .wrapper {
+  max-width: 1440px;
 }
 .footer .wrapper {
   width: -webkit-fill-available;
