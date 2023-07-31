@@ -992,7 +992,7 @@ img {
 @media screen and (max-width: 1610px) {
   .banner .banner-image {
     height: 392px;
-    background: url(../img/18.png) left 38%/auto 205% no-repeat;
+    background: url(../img/18.png) left 38%/auto 208% no-repeat;
   }
   .banner .banner-image .gallary-image-position .gallary-image .line-1 .gallary-image-item {
     width: 129px;
@@ -1021,18 +1021,18 @@ img {
     padding: 30px 0;
   }
   .banner .banner-image {
-    height: 312px;
+    height: 343px;
     background: url(../img/18.png) left 38%/auto 200% no-repeat;
   }
   .banner .banner-image .gallary-image-position .gallary-image {
-    right: 5%;
+    right: 2%;
   }
   .banner .banner-image .gallary-image-position .gallary-image .line-1 .card-hover .link-partner {
     top: 25%;
   }
   .banner .banner-image .gallary-image-position .gallary-image .line-1 .gallary-image-item {
-    width: 83px;
-    height: 80px;
+    width: 105px;
+    height: 90px;
     padding: 30px;
     margin: 0;
   }
@@ -1040,8 +1040,8 @@ img {
     top: 25%;
   }
   .banner .banner-image .gallary-image-position .gallary-image .line-2 .gallary-image-item {
-    width: 83px;
-    height: 80px;
+    width: 105px;
+    height: 90px;
     padding: 30px;
     margin: 0;
   }
@@ -1052,8 +1052,8 @@ img {
     top: 25%;
   }
   .banner .banner-image .gallary-image-position .gallary-image .line-3 .gallary-image-item {
-    width: 83px;
-    height: 80px;
+    width: 105px;
+    height: 90px;
     padding: 30px;
     margin: 0;
   }
