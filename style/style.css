@@ -89,7 +89,7 @@ img {
 }
 .header .wrapper .header-block-1 .nav .nav-line-1 .green-table {
   background-color: rgb(163, 223, 67);
-  max-width: 125px;
+  max-width: 120px;
   padding: 10px 0px;
   transform: matrix(1, 0, -0.3, 1, 0, 0);
   display: flex;
@@ -111,7 +111,7 @@ img {
   background-color: white;
   padding: 10px 0px;
   transform: matrix(1, 0, -0.3, 1, 0, 0);
-  width: 145px;
+  width: 120px;
   display: flex;
   justify-content: center;
 }
@@ -987,13 +987,16 @@ img {
     height: 498px;
   }
   .banner .banner-image .gallary-image-position .gallary-image .line-1 .gallary-image-item {
-    width: 138px;
+    width: 133px;
+    height: 100px;
   }
   .banner .banner-image .gallary-image-position .gallary-image .line-2 .gallary-image-item {
-    width: 138px;
+    width: 133px;
+    height: 100px;
   }
   .banner .banner-image .gallary-image-position .gallary-image .line-3 .gallary-image-item {
-    width: 138px;
+    width: 133px;
+    height: 100px;
   }
 }
 @media screen and (max-width: 1281px) {
@@ -1010,21 +1013,24 @@ img {
     top: 25%;
   }
   .banner .banner-image .gallary-image-position .gallary-image .line-1 .gallary-image-item {
-    width: 83px;
+    width: 95px;
+    height: 80px;
     padding: 30px;
   }
   .banner .banner-image .gallary-image-position .gallary-image .line-2 .card-hover .link-partner {
     top: 25%;
   }
   .banner .banner-image .gallary-image-position .gallary-image .line-2 .gallary-image-item {
-    width: 83px;
+    width: 95px;
+    height: 80px;
     padding: 30px;
   }
   .banner .banner-image .gallary-image-position .gallary-image .line-3 .card-hover .link-partner {
     top: 25%;
   }
   .banner .banner-image .gallary-image-position .gallary-image .line-3 .gallary-image-item {
-    width: 83px;
+    width: 95px;
+    height: 80px;
     padding: 30px;
   }
   .header .wrapper .header-decoration-line {
