@@ -1016,6 +1016,7 @@ img {
     width: 95px;
     height: 80px;
     padding: 30px;
+    margin: 0;
   }
   .banner .banner-image .gallary-image-position .gallary-image .line-2 .card-hover .link-partner {
     top: 25%;
@@ -1024,6 +1025,7 @@ img {
     width: 95px;
     height: 80px;
     padding: 30px;
+    margin: 0;
   }
   .banner .banner-image .gallary-image-position .gallary-image .line-3 .card-hover .link-partner {
     top: 25%;
@@ -1032,6 +1034,7 @@ img {
     width: 95px;
     height: 80px;
     padding: 30px;
+    margin: 0;
   }
   .header .wrapper .header-decoration-line {
     width: 30px;
