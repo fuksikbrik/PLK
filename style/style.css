@@ -992,7 +992,10 @@ img {
 @media screen and (max-width: 1610px) {
   .banner .banner-image {
     height: 392px;
-    background: url(../img/18.png) left 38%/auto 208% no-repeat;
+    background: url(../img/18.png) left 38%/auto 188% no-repeat;
+  }
+  .header .wrapper .header-block-1 {
+    padding: 50px 0 20px 0px;
   }
   .banner .banner-image .gallary-image-position .gallary-image .line-1 .gallary-image-item {
     width: 129px;
