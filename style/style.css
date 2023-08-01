@@ -1103,6 +1103,29 @@ img {
   }
 }/*# sourceMappingURL=style.css.map */
 @media screen and (max-width: 1400px) {
-.banner .banner-image {
-  background: url(../img/18.png) left 38%/auto 180% no-repeat;
+  .banner .banner-image {
+    background: url(../img/18.png) left 38%/auto 170% no-repeat;
+    height: 410px;
+  }
+  .banner .banner-image .gallary-image-position .gallary-image .line-1 .gallary-image-item {
+    width: 150px;
+    height: 120px;
+    margin: 0px -20px 20px 10px;
+    clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+  }
+  .banner .banner-image .gallary-image-position .gallary-image .line-2 .gallary-image-item {
+    width: 150px;
+    height: 120px;
+    margin: 0px -20px 20px 10px;
+    clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+  }
+  .banner .banner-image .gallary-image-position .gallary-image .line-3 .gallary-image-item {
+    width: 150px;
+    height: 120px;
+    margin: 0px -20px 20px 10px;
+    clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%);
+  }
+  .header .wrapper .header-block-1 {
+    padding: 50px 280px 20px 0;
+  }
 }
