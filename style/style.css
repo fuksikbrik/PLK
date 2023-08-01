@@ -999,7 +999,7 @@ img {
   padding: 15px 50px 15px 50px;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1599px) {
   .banner .banner-image {
     height: 392px;
     background: url(../img/18.png) left 38%/auto 188% no-repeat;
