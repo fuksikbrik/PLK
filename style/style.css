@@ -1102,3 +1102,7 @@ img {
     width: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
+@media screen and (max-width: 1400px)
+.banner .banner-image {
+  background: url(../img/18.png) left 38%/auto 180% no-repeat;
+}
