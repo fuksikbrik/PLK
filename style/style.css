@@ -89,7 +89,7 @@ img {
 }
 .header .wrapper .header-block-1 .nav .nav-line-1 .green-table {
   background-color: rgb(163, 223, 67);
-  max-width: 120px;
+  max-width: 140px;
   padding: 10px 0px;
   transform: matrix(1, 0, -0.3, 1, 0, 0);
   display: flex;
@@ -111,7 +111,7 @@ img {
   background-color: white;
   padding: 10px 0px;
   transform: matrix(1, 0, -0.3, 1, 0, 0);
-  width: 120px;
+  width: 140px;
   display: flex;
   justify-content: center;
 }
