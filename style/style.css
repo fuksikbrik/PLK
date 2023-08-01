@@ -1002,7 +1002,7 @@ img {
 @media screen and (max-width: 1599px) {
   .banner .banner-image {
     height: 392px;
-    background: url(../img/18.png) left 38%/auto 188% no-repeat;
+    background: url(../img/18.png) left 38%/auto 210% no-repeat;
   }
   .header .wrapper .header-block-1 {
     padding: 50px 80px 20px 0px;
