@@ -34,16 +34,16 @@ img {
   font-weight: 500;
 }
 @font-face {
-  font-family: "RalewayRegular";
-  src: url("../fonts/PragmaticaC-Bold.otf") format("truetype");
+  font-family: "Pragmatica";
+  src: url("../fonts/PragmaticaC.otf") format("truetype");
   font-style: normal;
   font-weight: 700;
 }
 @font-face {
-  font-family: "RalewayRegular";
-  src: url("../fonts/RalewayRegular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Pragmatica";
+  src: url("../fonts/PragmaticaC-Bold.otf") format("truetype");
+  font-style: bold;
+  font-weight: 900;
 }
 @font-face {
   font-family: "RalewayRegular";
@@ -64,7 +64,7 @@ img {
   font-weight: normal;
 }
 .background-gradient {
-  background: linear-gradient(to bottom, white, white 35%, rgb(0, 51, 95) 55%);
+  background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.5) 45%, rgb(0, 51, 95) 55%);
 }
 
 .header {
@@ -98,7 +98,7 @@ img {
   gap: 15px;
 }
 .header .wrapper .header-block-1 .nav .nav-line-1 .green-table {
-  background-color: rgb(163, 223, 67);
+  background-color: #a2c536;
   max-width: 120px;
   padding: 10px 0px;
   transform: matrix(1, 0, -0.3, 1, 0, 0);
@@ -110,7 +110,7 @@ img {
   transform: matrix(1, 0, 0.3, 1, 0, 0);
   font-family: "Pragmatica";
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   color: rgba(255, 255, 255, 0.884);
 }
 .header .wrapper .header-block-1 .nav .nav-line-2 {
@@ -129,7 +129,7 @@ img {
   transform: matrix(1, 0, 0.3, 1, 0, 0);
   font-family: "Pragmatica";
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
 }
 .header .wrapper .header-decoration-line {
   margin-left: -64px;
@@ -159,7 +159,7 @@ img {
   color: white;
 }
 .header .wrapper .green-banner {
-  background-color: rgb(163, 223, 67);
+  background-color: #a2c536;
   transform: matrix(1, 0, -0.5, 1, 0, 0);
   display: flex;
   justify-content: end;
@@ -169,7 +169,7 @@ img {
   right: 13px;
 }
 .header .wrapper .green-banner .erorr {
-  background-color: rgb(163, 223, 67);
+  background-color: #a2c536;
   height: 46px;
   width: 50px;
   transform: matrix(1, 0, 0.5, 1, 0, 0);
@@ -374,11 +374,11 @@ img {
 }
 
 .bookmark-2 {
-  background-color: #9fc53b;
+  background-color: #a2c536;
 }
 .bookmark-2 p {
   font-family: "Pragmatica";
-  color: rgb(224, 224, 224);
+  color: white;
   font-weight: 400;
   font-size: 30px;
 }
@@ -404,7 +404,7 @@ img {
 }
 
 .bookmark-5 {
-  background-color: #9fc53b;
+  background-color: #a2c536;
 }
 .bookmark-5 p {
   font-family: "Pragmatica";
@@ -597,27 +597,27 @@ img {
 }
 .block-animation .animation {
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: 45%;
 }
 .block-animation .animation .line-1 {
   font-family: "Pragmatica";
   color: white;
-  font-weight: 700;
-  font-size: 70px;
+  font-weight: 900;
+  font-size: 60px;
   margin-left: -300px;
 }
 .block-animation .animation .line-2 {
   font-family: "Pragmatica";
   color: white;
-  font-weight: 700;
-  font-size: 110px;
+  font-weight: 600;
+  font-size: 100px;
   margin-left: -200px;
 }
 .block-animation .animation .line-3 {
   font-family: "Pragmatica";
   color: white;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 74px;
   margin-left: -100px;
 }
@@ -843,7 +843,7 @@ img {
   color: #b6bdc5;
 }
 .white-background .blocks-news .wrapper .news .slide .link-right .block-right .title-and-text .title-and-years .title {
-  background-color: #9fc53b;
+  background-color: #a2c536;
   width: -webkit-fill-available;
   display: flex;
 }
@@ -950,7 +950,7 @@ img {
   transform: matrix(1, 0, 0.5, 1, 0, 0);
 }
 .footer .wrapper .footer-wrapper .footer-center-block .footer-center-block-line-1 .green-table-footer {
-  background-color: rgb(163, 223, 67);
+  background-color: #a2c536;
   transform: matrix(1, 0, -0.5, 1, 0, 0);
   max-width: 140px;
   width: -webkit-fill-available;
@@ -977,7 +977,7 @@ img {
   max-width: 140px;
   width: -webkit-fill-available;
   padding: 7px 0px;
-  background-color: rgba(17, 7, 160, 0.548);
+  background-color: #003260;
 }
 .footer .wrapper .footer-wrapper .footer-center-block .footer-center-block-line-2 .blue-table p {
   transform: matrix(1, 0, 0.5, 1, 0, 0);
@@ -1008,7 +1008,7 @@ img {
   position: absolute;
   top: 0;
   right: 13px;
-  background-color: rgb(163, 223, 67);
+  background-color: #a2c536;
   transform: matrix(1, 0, -0.5, 1, 0, 0);
   display: flex;
   justify-content: end;
@@ -1016,7 +1016,7 @@ img {
 }
 .footer .airplane .erorr {
   height: 46px;
-  background-color: rgb(163, 223, 67);
+  background-color: #a2c536;
   width: 50px;
   transform: matrix(1, 0, 0.5, 1, 0, 0);
   position: absolute;
