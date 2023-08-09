@@ -933,7 +933,7 @@ img {
   max-width: 200px;
   height: 60px;
   margin: auto 0;
-  padding: 0px 30px 0px 0px;
+  padding: 0px 30px 0px 80px;
 }
 .footer .wrapper .footer-wrapper .footer-center-block {
   display: flex;
