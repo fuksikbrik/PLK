@@ -222,9 +222,7 @@ img{
                 position: absolute;
                 top: 0%;
                 right: 3%;
-                .link-partner-fixed{
-                  margin-top: 0px !important;
-                }
+                
                 
                 
                 .line-1{
@@ -250,6 +248,9 @@ img{
                             padding: 44px 0px;
                             clip-path: polygon(22% 0, 100% 0, 78% 100%, 0 100%);
                             transition: 0.6s;
+                        }
+                        .link-partner-fixed{
+                             margin-top: 0px ;
                         }
                     }
                     .gallary-image-item{
@@ -299,6 +300,9 @@ img{
                             clip-path: polygon(22% 0, 100% 0, 78% 100%, 0 100%);
                             transition: 0.6s;
                         }
+                        .link-partner-fixed{
+                            margin-top: 0px ;
+                       }
                     }
                     .line-2-fixed-card{
                         margin: 0px -15px 0px 0px ;
@@ -356,6 +360,9 @@ img{
                             clip-path: polygon(22% 0, 100% 0, 78% 100%, 0 100%);
                             transition: 0.6s;
                         }
+                        .link-partner-fixed{
+                            margin-top: 0px ;
+                       }
                     }
                     
                     .gallary-image-item{
