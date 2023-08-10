@@ -222,6 +222,9 @@ img{
                 position: absolute;
                 top: 0%;
                 right: 3%;
+                .link-partner-fixed{
+                  margin-top: 0px !important;
+                }
                 
                 
                 .line-1{
@@ -233,16 +236,20 @@ img{
                         .link-partner{
                             color: white;
                             text-decoration: none;
+                            background-color: #003260;
                             font-family: 'Pragmatica';
                             font-weight: 400;
-                            font-size: 20px;
+                            font-size: 14px;
                             position: absolute;
-                            top: 40%;
+                            margin-top: 30px;
                             text-align: center;
-                            left: 10%;
+                            left: 10px;
                             transform: matrix(1, 0, 0.3, 1, 0, 0);
                             opacity: 0;
-                            width: 80%;
+                            width: 162px;
+                            padding: 44px 0px;
+                            clip-path: polygon(22% 0, 100% 0, 78% 100%, 0 100%);
+                            transition: 0.6s;
                         }
                     }
                     .gallary-image-item{
@@ -253,10 +260,10 @@ img{
                       transition: 0.6s;
                       margin: 30px -22px 30px 10px;
                       transform: skewX(16deg);
-                      clip-path: polygon(24% 0, 100% 0, 76% 100%, 0 100%);
+                      clip-path: polygon(22% 0, 100% 0, 78% 100%, 0 100%);
                     }
                     .card-hover:hover{
-                        background-color: rgb(0 51 95) ;
+                       
                         .gallary-image-item{
                             opacity: 0;
                         }
@@ -277,16 +284,20 @@ img{
                         .link-partner{
                             color: white;
                             text-decoration: none;
+                            background-color: #003260;
                             font-family: 'Pragmatica';
                             font-weight: 400;
-                            font-size: 20px;
+                            font-size: 14px;
                             position: absolute;
-                            top: 40%;
+                            margin-top: 30px;
                             text-align: center;
-                            left: 10%;
+                            left: 10px;
                             transform: matrix(1, 0, 0.3, 1, 0, 0);
                             opacity: 0;
-                            width: 80%;
+                            width: 162px;
+                            padding: 44px 0px;
+                            clip-path: polygon(22% 0, 100% 0, 78% 100%, 0 100%);
+                            transition: 0.6s;
                         }
                     }
                     .line-2-fixed-card{
@@ -300,13 +311,17 @@ img{
                         transition: 0.6s;
                         margin: 30px -10px 30px 10px;
                         transform: skewX(16deg);
-                        clip-path: polygon(24% 0, 100% 0, 76% 100%, 0 100%);
+                        clip-path: polygon(22% 0, 100% 0, 78% 100%, 0 100%);
                     }
                     .fixed-card{
                         margin: 0px -15px 30px 10px;
+                        .link-partner{
+                            top: 40% -30px;
+                            left: 10%;
+                        }
                     }
                     .card-hover:hover{
-                        background-color: rgb(0 51 95) ;
+                      
                         .gallary-image-item{
                             opacity: 0;
                         }
@@ -326,16 +341,20 @@ img{
                         .link-partner{
                             color: white;
                             text-decoration: none;
+                            background-color: #003260;
                             font-family: 'Pragmatica';
                             font-weight: 400;
-                            font-size: 20px;
+                            font-size: 14px;
                             position: absolute;
-                            top: 40%;
+                            margin-top: 30px;
                             text-align: center;
-                            left: 10%;
+                            left: 10px;
                             transform: matrix(1, 0, 0.3, 1, 0, 0);
                             opacity: 0;
-                            width: 80%;
+                            width: 162px;
+                            padding: 44px 0px;
+                            clip-path: polygon(22% 0, 100% 0, 78% 100%, 0 100%);
+                            transition: 0.6s;
                         }
                     }
                     
@@ -347,7 +366,7 @@ img{
                         transition: 0.6s;
                         margin: 30px 20px 30px 10px;
                         transform: skewX(16deg);
-                        clip-path: polygon(24% 0, 100% 0, 76% 100%, 0 100%);
+                        clip-path: polygon(22% 0, 100% 0, 78% 100%, 0 100%);
                     }
                     .fixed-card{
                         margin: 0px 20px 30px 10px;
@@ -356,7 +375,7 @@ img{
                         margin: 0px 20px 30px 10px;
                     }
                     .card-hover:hover{
-                        background-color: rgb(0 51 95) ;
+                    
                         .gallary-image-item{
                             opacity: 0;
                         }
@@ -1050,3 +1069,16 @@ img{
     }
 }
 
+@media screen and (max-width:1290px) {
+    .banner{
+        .wrapper{
+            .banner-image{
+                .gallary-image-position{
+                    .gallary-image{
+                        right: 2.3%;
+                    }
+                }
+            }
+        }
+    }
+}
